@@ -1,0 +1,15 @@
+h1{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+}
+h2{
+    color: brown;
+    background-color: rgb(201, 201, 184);
+    text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+}
