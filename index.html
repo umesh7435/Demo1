@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = 'Paragraph Changed!'
+        }
+    </script>
 </head>
 
 <body>
     <h2>What does Java Script Can do?</h2>
-    <p>JavaScript can show hidden HTML elements.</p>
-    <p id="demo" style="display: none;">Hello JavaScript</p>
+    <p id="demo">A Paragraph</p>
 
-    <button type="button" onclick="document.getElementById('demo').style.display='block'">Click me</button>
-
-    <button type="button" onclick="document.getElementById('demo').style.display='none'"><<</button>
-
+    <button type="button" onclick="myFunction()">Try it!</button>
 </body>
 
 </html>
