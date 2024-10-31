@@ -1,3 +1,3 @@
 function myFunction(){
-    document.getElementById("demo").innerHTML = 'Changed!'
+    document.getElementById("demo").innerHTML = 5+6
 }
